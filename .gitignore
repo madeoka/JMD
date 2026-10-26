@@ -1,0 +1,20 @@
+# Dependencies, local environments and temporary output
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+.pytest_cache/
+
+# Sensitive or redistributable references: keep source PDFs out of public repo
+*.pdf
+
+# Local exports and generated builds
+*.zip
+*_hasil_*.json
+*_hasil_*.csv
+screenshots/
+coverage/
